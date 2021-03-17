@@ -1,0 +1,79 @@
+.body {
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0;
+    height: 100%;
+}
+.Sign-block{
+    padding-top: 5rem;
+    padding-left: 15rem;
+}
+
+
+.bookcase_picture{
+    width: 25rem;
+}
+
+.sign_in_text{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    margin:0;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+
+}
+.field_1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+.field{
+    border-radius: 10px;
+    width: 18rem;
+    height: 1.5rem;
+}
+
+.field-name{
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.SignIn__btn{
+    padding-top: 1.5rem;
+}
+
+.SignIn__btn a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white;
+    border: 2px white solid;
+    padding: 0.5rem 3rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+.SignIn__btn a:hover,
+.SignIn__btn a:active{
+    color: black;
+    background: white;
+}
+
+.Sign__Up__link{
+    padding-top: 2rem;
+    font-size: 0.7rem;
+}
+.Sign__Up__link a{
+    color: white;
+}
+.Sign__Up__link a:hover{
+    color: gray;
+}
