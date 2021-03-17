@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html lang="en" class="html">
 	<head>
 		<title>Book lover</title>
 		<!-- To include Montserrat font -->
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Reggae+One&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href = "head_food.css">
-		<link rel="stylesheet" href = "main_page.css">
+<!--		<link rel="stylesheet" href = "../../../book-lover/view/main_page.css">-->
 	</head>
 
 	<body class="body">
@@ -28,14 +27,14 @@
 						<a href="books">Books</a>
 					</li>
 					<li class="header__nav__item">
-						<a href="audio books">Audio books</a>
-					</li>
-					<li class="header__nav__item">
-						<a href="authors">Authors</a>
+						<a href="audio books">Basket</a>
 					</li>
 					<li class="header__nav__item SignIn__btn">
-						<a href="form">Sign In</a>
+						<a href="./log/login.php">Sign In</a>
 					</li>
+                    <li class="header__nav__item">
+                        <a href="authors">Sign Up</a>
+                    </li>
 				</ul>
 			</nav>
 		</header>
@@ -46,41 +45,16 @@
 					<a href="books" class="a">Books</a>
 				</li>
 				<li class="mobile-nav__item">
-					<a href="audio books" class="a">Audio books</a>
+					<a href="audio books" class="a">Basket</a>
 				</li>
+                <li class="mobile-nav__item">
+                    <a href="form" class="a">Sign In</a>
+                </li>
 				<li class="mobile-nav__item">
-					<a href="authors" class="a">Authors</a>
+					<a href="authors" class="a">Sign Up</a>
 				</li>
-				<li class="mobile-nav__item">
-					<a href="form" class="a">Sign In</a>
-				</li>
+
 			</ul>
 		</nav>
-
-		<main class="main">
-			<section class="heading">
-				Find any book you need
-			</section>
-			<section class="text">
-				We are glad to welcome you, dear reader, to our website!
-				Here you can find over 18 thousand e-books and many audiobooks.
-				Please register to read something.
-			</section>
-			<section class="SignUp__btn">
-                    <a href="form">
-                        Sign Up
-                    </a>
-                </section>
-		       <section class="book_picture">
-                    <img src="images/open_book.jpg">
-                </section>
-		</main>
-
-		<footer class="footer">
-			<img src="icons/instagram.png" alt="instagram">
-			<img src="icons/telegram.png" alt="telegram">
-			<img src="icons/email.png" alt="email">
-		</footer>
-	<script src="burger-menu.js"></script>
-	</body>
+    </body>
 </html>
